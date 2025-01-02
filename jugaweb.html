@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juga Bet Pre-Landing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      height: 100vh;
+      background: linear-gradient(to bottom, #000428, #004e92);
+      color: white;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blur-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      backdrop-filter: blur(3px); 
+    }
+
+    .blur-bg img {
+      width: 20%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      object-fit: cover;
+      filter: blur(5px) brightness(0.7); 
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4); 
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .logo img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .promo-text {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: hsl(75, 100%, 50%); 
+      color: black;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: hsl(75, 100%, 50%);
+      transform: translateY(-3px); 
+    }
+  </style>
+</head>
+<body>
+  <div class="blur-bg">
+    <!-- Заблюренные и затемненные картинки -->
+    <img src="file:///C:/Users/Valeria/Downloads/Crazy%20Time.jpg" alt="Crazy Time">
+    <img src="file:///C:/Users/Valeria/Downloads/Mega%20Roulette.jpg" alt="Mega Roulette">
+    <img src="file:///C:/Users/Valeria/Downloads/Crazy%20Time%20A.jpg" alt="Crazy Time A">
+    <img src="file:///C:/Users/Valeria/Downloads/Mega%20Wheel.jpg" alt="Mega Wheel">
+    <img src="file:///C:/Users/Valeria/Downloads/Sweet%20Bonanza.jpg" alt="Sweet Bonanza">
+    <img src="file:///C:/Users/Valeria/Downloads/Speed%20Baccarat%2012.jpg" alt="Speed Baccarat 12">
+    <img src="file:///C:/Users/Valeria/Downloads/Speed%20Baccarat%20A.jpg" alt="Speed Baccarat A">
+    <img src="file:///C:/Users/Valeria/Downloads/Player%20Banker.jpg" alt="Player Banker">
+    <img src="file:///C:/Users/Valeria/Downloads/Joker's%20Dice.jpg" alt="Joker's Dice">
+    <img src="file:///C:/Users/Valeria/Downloads/Boom%20City.jpg" alt="Boom City">
+  </div>
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="logo">
+      <img src= "C:\Users\Valeria\Downloads\jugabetlogo.png" alt="Juga Bet Logo">
+    </div>
+    <div class="promo-text">DEL 275% MAS 300 GIROS GRATIS</div>
+    <a href="https://google.com" class="btn">Registrarse</a>
+  </div>
+  <script>
+    // Редирект через 1 секунду
+    setTimeout(() => {
+      window.location.href = "https://google.com";
+    }, 1000);
+  </script>
+</body>
+</html>
